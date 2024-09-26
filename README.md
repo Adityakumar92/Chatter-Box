@@ -1,68 +1,75 @@
-# Snappy - Chat Application 
-Snappy is chat application build with the power of MERN Stack. You can find the tutorial [here](https://www.youtube.com/watch?v=otaQKODEUFs)
+# Chatter-Box 💬
 
+**Tagline**: "Real-time conversations at your fingertips."
 
-![login page](./images/snappy_login.png)
+**Chatter-Box** is a real-time chat application built using React.js and WebSocket.io, designed to provide users with a seamless messaging experience. Whether you're chatting with friends or collaborating on projects, Chatter-Box makes communication effortless and instant.
 
-![home page](./images/snappy.png)
+---
 
-## Installation Guide
+## 🚀 Features
 
-### Requirements
-- [Nodejs](https://nodejs.org/en/download)
-- [Mongodb](https://www.mongodb.com/docs/manual/administration/install-community/)
+- **Real-Time Messaging**: Experience instant communication with WebSocket.io.
+- **User Authentication**: Secure login for a personalized chat experience.
+- **Responsive Design**: Fully optimized for desktop and mobile devices.
+- **Message Notifications**: Stay updated with real-time message alerts.
+- **User-Friendly Interface**: Intuitive layout for effortless navigation.
 
-Both should be installed and make sure mongodb is running.
-### Installation
+---
 
-#### First Method
-```shell
-git clone https://github.com/koolkishan/chat-app-react-nodejs
-cd chat-app-react-nodejs
+## 🛠️ Technologies Used
+
+- **Frontend**: React.js
+- **WebSocket**: WebSocket.io
+- **Styling**: CSS / SASS
+- **Backend**: Node.js (Express)
+- **Database**: MongoDB 
+
+---
+
+## 📦 Installation
+
+To get started with **Chatter-Box** on your local machine:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Adityakumar92/chatter-box.git
+
 ```
-Now rename env files from .env.example to .env
-```shell
-cd public
-mv .env.example .env
-cd ..
-cd server
-mv .env.example .env
-cd ..
+2. Navigate to the project directory:
+
+```bash
+cd chatter-box
 ```
 
-Now install the dependencies
-```shell
-cd server
-yarn
-cd ..
-cd public
-yarn
-```
-We are almost done, Now just start the development server.
+3. Install the dependencies:
 
-For Frontend.
-```shell
-cd public
-yarn start
+```bash
+npm install
 ```
-For Backend.
 
-Open another terminal in folder, Also make sure mongodb is running in background.
-```shell
-cd server
-yarn start
-```
-Done! Now open localhost:3000 in your browser.
+4. Start the development server:
 
-#### Second Method
-- This method requires docker and docker-compose to be installed in your system.
-- Make sure you are in the root of your project and run the following command.
+```bash
+npm start
+```
 
-```shell
-docker compose build --no-cache
-```
-after the build is complete run the containers using the following command
-```shell
-docker compose up
-```
-now open localhost:3000 in your browser.
+The app will be running at http://localhost:3000.
+
+## 📚 Usage
+Sign Up / Log In: Create an account or log in to your existing account.
+Start Chatting: Select a contact from the list to start a real-time conversation.
+Send Messages: Type your message and hit enter to send it instantly.
+Receive Notifications: Get notified for new messages in real-time.
+
+📌 Future Enhancements
+Add group chat functionality.
+Implement end-to-end encryption for messages.
+Introduce emojis and file sharing features.
+Enhance user profiles with status updates and avatars.
+🎓 Learning Resources
+WebSocket Documentation
+React Documentation
+Node.js Documentation
+
+
